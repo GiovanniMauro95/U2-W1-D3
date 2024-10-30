@@ -1,0 +1,30 @@
+section {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    background-color: #FBF7E3;
+    border-radius: 25px;
+    font-family: sans-serif;
+    flex-wrap: wrap;
+}
+
+img {
+    display: flex;
+    width: 150px;
+}
+
+p {
+    color: #612406;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: #612406;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #F3DF85;
+    border-radius: 100px;
+
+}
