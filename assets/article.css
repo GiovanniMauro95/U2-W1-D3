@@ -1,0 +1,41 @@
+section {
+    display: flex;
+    background-color: #FBF7E3;
+    border-radius: 25px;
+    justify-content: center;
+    padding: 1em;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+}
+
+h1 {
+    color: #612406;
+    font-weight: bold
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    flex: 1 1 auto;
+    object-fit: cover;
+    order: 1;
+}
+
+.title {
+    display: flex;
+    margin: 1em;
+    order: 2;
+    justify-content: center;
+}
+
+P {
+    display: flex;
+    flex-wrap: wrap;
+    order: 3
+
+}
+
+.image {
+    display: flex
+}
